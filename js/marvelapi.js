@@ -1,4 +1,4 @@
-var rootURL = 'http://gateway.marvel.com/v1/public/'
+var rootURL = 'https://gateway.marvel.com/v1/public/'
 var apiKeyPublic = '26a81b54082b88e0e8e5baed14a0093f'
 var apiKeyPrivate = '1e019543211f21b4421599360379f3e8376b1c91'
 var ts = Date.now()
