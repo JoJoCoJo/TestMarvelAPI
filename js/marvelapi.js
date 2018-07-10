@@ -5,12 +5,11 @@ var ts = Date.now()
 
 var hash = $.md5(ts + apiKeyPrivate + apiKeyPublic)
 
-console.log('urlMarvel >>>', rootURL+'characters?apikey='+apiKeyPublic+'&ts='+ts+'&hash='+hash)
-
 $(document).ready(function(){
 
 	rootURL = rootURL+'characters?apikey='+apiKeyPublic+'&ts='+ts+'&hash='+hash
-
+	console.log('urlMarvel >>>', rootURL)
+	
 	$.ajax({
 		
 		url: rootURL
